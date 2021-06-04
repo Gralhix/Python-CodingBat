@@ -1,0 +1,16 @@
+# https://codingbat.com/prob/p162058
+# Warmup-1 > pos_neg
+
+def pos_neg(a, b, negative):
+  if a < 0 and b < 0 and negative == False:
+    return False
+  elif a < 0 and b < 0 and negative == True:
+    return True
+  elif negative == True:
+    return False
+  elif a < 0 and b > 0:
+    return True
+  elif a > 0 and b < 0:
+    return True
+  elif a > 0 and b > 0:
+    return False
