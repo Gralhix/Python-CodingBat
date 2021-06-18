@@ -1,4 +1,4 @@
 # CodingBatPython
-# CodingBat Python Exercises
+# Simple & Basic CodingBat Python Exercises
 
 # https://codingbat.com/python
